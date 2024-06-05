@@ -6,9 +6,9 @@ import (
 	"encoding/binary"
 	"os"
 
-	dbi "github.com/knqyf263/go-rpmdb/pkg/db"
-	"golang.org/x/xerrors"
 	_ "github.com/glebarez/go-sqlite"
+	dbi "github.com/neuvector/go-rpmdb/pkg/db"
+	"golang.org/x/xerrors"
 )
 
 type SQLite3 struct {

@@ -1,6 +1,6 @@
-module github.com/knqyf263/go-rpmdb
+module github.com/neuvector/go-rpmdb
 
-go 1.18
+go 1.22
 
 require (
 	github.com/glebarez/go-sqlite v1.20.3
